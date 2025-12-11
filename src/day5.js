@@ -14,7 +14,7 @@ if (wallet.balance >= 5 || wallet.role === "admin") {
 }
 
 if (wallet.role === "admin" || wallet.role === "moderator") {
-    console.log("Admin psnel access: GRANTED");
+    console.log("Admin panel access: GRANTED");
 } else {
     console.log("Admin panel access: DENIED");
 }
