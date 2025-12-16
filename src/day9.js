@@ -1,5 +1,5 @@
 async function fetchPrices() {
-    try {
+
         const responce = await fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum&vs_currencies=usd');
         
         if(!responce.ok) {
@@ -8,15 +8,8 @@ async function fetchPrices() {
 
         const data = await responce.json();
 
-        const btcPrice = data.bitcoin.usd;
-        const ethPrice = data.ethereum.usd;
-
-        return { btc: btcPrice, eth: ethPrice };
-    } catch (error) {
-        console.error("Failed to fetch prices:", error.message);
-        throw error
-    }
-}
+        return { btc: data.bitcoin.usd, eth: data.ethereum.usd };
+};
 
 
 async function main() {
