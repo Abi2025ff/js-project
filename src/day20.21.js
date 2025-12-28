@@ -120,7 +120,7 @@ async function main() {
                 console.log(`Wallet balance: ${balance} ETH`);
 
 
-               history.pysh({
+               history.push({
                     type: "balance",
                     address: address,
                     balance: balance,
