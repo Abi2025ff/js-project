@@ -1,0 +1,26 @@
+[
+  {
+    "crypto": "SOL",
+    "currency": "EUR",
+    "price": 108.56,
+    "time": "2025-12-29T06:44:53.363Z"
+  },
+  {
+    "crypto": "SOL",
+    "currency": "EUR",
+    "price": 108.56,
+    "time": "2025-12-29T06:45:21.828Z"
+  },
+  {
+    "crypto": "BTC",
+    "currency": "GBP",
+    "price": 66590,
+    "time": "2025-12-29T06:45:46.189Z"
+  },
+  {
+    "crypto": "BTC",
+    "currency": "USD",
+    "price": 89835,
+    "time": "2025-12-29T06:46:18.682Z"
+  }
+]
